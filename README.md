@@ -1,10 +1,18 @@
 # Firebase Pro
 
-This plugin enhances development experience for Firebase projects in JetBrains IDEs by providing rich language support,
-validation, navigation, and tooling for Firebase configuration and rule files.  
-It automatically recognizes and augments key Firebase files — including `firebase.json`, Firestore Security Rules,
-Realtime Database Rules, and Firestore Indexes — with intelligent IDE integrations such as auto-completion, schema
-validation, inspections, and code navigation.
+Provides rich language support, validation, navigation, and tooling for Firebase configuration and rules files.
+
+Gain a comprehensive suite of Firebase development features directly in your favorite IDE:
+
+- **Smart file recognition** for Firebase configuration, rules, and indexes files
+- **Context-aware completion** for all Firebase-specific languages
+- **Built-in schema validation** for correctness
+- **Powerful inspections** and **quick fixes** for error prevention
+- **Seamless navigation**, **documentation**, and **structure views**
+- **Customizable formatting and color schemes** for a better development experience
+
+This plugin streamlines Firebase configuration and rule authoring, reducing errors and improving productivity for teams
+working with Firebase-backed projects.
 
 ---
 
@@ -26,7 +34,7 @@ This helps configure Firebase faster and more accurately.
 ## Reference
 
 Clickable references are provided for filenames linked within the Firebase configuration.  
-When you reference files such as Firestore rules, Firestore indexes, or Realtime Database rules (e.g.,
+When you reference files such as Firestore rules, Firestore indexes, Storage rules, or Realtime Database rules (e.g.,
 `"firestore.rules"`), clicking the filename opens that file directly in the editor.
 
 ## Inspection
@@ -35,8 +43,10 @@ The plugin includes multiple inspections to help detect and fix configuration is
 
 - Detects missing configurations for the default Firestore database.
 - Detects duplicate configurations for the same Firestore database.
-- Detects and offers quick fixes for missing Firestore Indexes or Rules files, automatically creating them with default
-  templates.
+- Detects and offers quick fixes for missing Firestore Rules, Firestore Indexes, Storage Rules, and Realtime Database
+  Rules files automatically creating them with default templates.
+
+These and many other inspections help maintain a consistent and valid Firebase setup across your project.
 
 ## Schema Validation
 
@@ -77,6 +87,9 @@ Advanced inspections detect common issues such as:
 - Invalid service names
 - Incorrect type checks
 - Undefined function calls
+
+These and many other inspections help ensure your security rules are both syntactically valid and semantically correct,
+reducing runtime errors and improving maintainability.
 
 ## Reference
 
@@ -147,27 +160,22 @@ Includes inspections that detect:
 - Use of `==` instead of strict `===`
 - Undefined `$location` variable references
 
+These and many other inspections provide real-time feedback, helping you maintain correct, clean, and consistent rule
+definitions.
+
 ## Reference
 
 Enables navigation for local variable references (e.g., `$location`) to quickly jump between definitions and usages.
+
+## Code style (formatting)
+
+Provides a built-in formatter for Firebase Realtime Database Rules with customizable styling options in the IDE.
 
 ## Color scheme
 
 Adds a dedicated syntax highlighting scheme for Realtime Database Rules, with customizable color options for improved
 readability.
 
----
+## Structure view
 
-# Summary
-
-With this plugin, developers gain a comprehensive suite of Firebase development features directly in JetBrains IDEs:
-
-- **Smart file recognition** for Firebase configuration and rules files
-- **Context-aware completion** for all Firebase-specific languages
-- **Built-in schema validation** for correctness
-- **Powerful inspections** and **quick fixes** for error prevention
-- **Seamless navigation**, **documentation**, and **structure views**
-- **Customizable formatting and color schemes** for a better development experience
-
-This plugin streamlines Firebase configuration and rule authoring, reducing errors and improving productivity for teams
-working with Firebase-backed projects.
+Displays a hierarchical **Structure View** that presents a tree-like outline of the file’s contents.
