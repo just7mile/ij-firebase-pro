@@ -1,6 +1,12 @@
 # Firebase Pro
 
-Provides rich language support, validation, navigation, and tooling for Firebase configuration and rules files.
+![JetBrains Marketplace](https://img.shields.io/badge/JetBrains%20Marketplace-Plugin-blue?logo=jetbrains&logoColor=white)
+
+[Get from Marketplace](https://plugins.jetbrains.com/plugin/28937-firebase-pro)
+
+
+Provides rich language support, validation, navigation, and tooling for Firebase configuration and rules
+files.
 
 Gain a comprehensive suite of Firebase development features directly in your favorite IDE:
 
@@ -10,6 +16,23 @@ Gain a comprehensive suite of Firebase development features directly in your fav
 - **Powerful inspections** and **quick fixes** for error prevention
 - **Seamless navigation**, **documentation**, and **structure views**
 - **Customizable formatting and color schemes** for a better development experience
+
+Supports the majority of the Firebase products:
+
+- **Firebase Configuration (`firebase.json`)**: file recognition, documentation, validation, completion, navigation, and
+  more.
+- **Firestore security rules**: file recognition, documentation, completion, inspection, navigation, formatting,
+  highlighting, structuring, and more.
+- **Firestore indexes**: file recognition, documentation, completion, validation, and more.
+- **Storage security rules**: file recognition, documentation, completion, inspection, navigation, formatting,
+  highlighting, structuring, and more.
+- **Realtime database**: file recognition, documentation, completion, inspection, navigation, formatting, highlighting,
+  structuring, and more.
+- **Remote config**: file recognition, documentation, completion, validation, and more.
+- **Data Connect**: file recognition, documentation, completion, inspection, navigation, validation, and more.
+- **Firebase Extension**: file recognition, documentation, completion, validation, and more.
+- **Firebase Runtime Configuration** (`.firebaserc`): file recognition, documentation, completion, validation, and more.
+- **Firebase Local Emulators**: start any or all local emulators directly from your favorite IDE!
 
 This plugin streamlines Firebase configuration and rule authoring, reducing errors and improving productivity for teams
 working with Firebase-backed projects.
